@@ -12,7 +12,7 @@ void MenuInterface::displayWelcome(const std::string &author, const std::string 
   std::string authorText{"Developed by " + author};
   std::string comp3023{"COMP 3023 Software Development with C++"};
 
-  unsigned int columns{std::max(welcomeText.size(), std::max(authorText.size(), comp3023.size()))};
+  unsigned long columns{std::max(welcomeText.size(), std::max(authorText.size(), comp3023.size()))};
 
   _display << centre(columns, welcomeText.size()) << welcomeText << std::endl
            << centre(columns, authorText.size()) << authorText << std::endl
