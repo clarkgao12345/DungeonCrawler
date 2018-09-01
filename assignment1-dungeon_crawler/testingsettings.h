@@ -9,13 +9,13 @@
 // and selecting 'clean' or 'rebuild' as desired.
 
 // Set this to 1 to run the testing, 0 to run normal mode.
-#define TESTING 1
+#define TESTING 0
 
 // Set this to 1 to run the game using the input script
 // In order to work, the provided input script relies on
 // the generation of goblins as the only creature and
 // either the potion or acid flask items as items.
-#define INPUT_SCRIPT 0
+#define INPUT_SCRIPT 1
 
 // If this is 1, the output generated from the INPUT_SCRIPT
 // will be stored directly in file rather than output to
